@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: url("bgItenas.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+main h2{
+    color: white;
+    text-align: center;
+}
+
+.chatBox{
+    padding: 20px;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+.chatBox p {
+    font-size: 12px;
+}
+
+.chatBox p #itenas{
+    font-weight: 700;
+    color: #c36400;
+}
+
+
+.chatBox p .user{
+    font-weight: 700;
+    color: #0b3a6a;
+}
+
+.input-group{
+    width: 80%;
+    position: absolute;
+    top: 500px;
+}
+
+@media (min-width:768px){
+    main h2{
+        color: white;
+        position: absolute;
+        top: 220px;
+        text-align: center;
+        right: 100px;
+    }
+    
+    .chatBox{
+        position: absolute;
+        top: 60px;
+    }
+}
